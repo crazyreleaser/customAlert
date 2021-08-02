@@ -10,11 +10,11 @@
 		840FD26126B83D3E00409F19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840FD26026B83D3E00409F19 /* AppDelegate.swift */; };
 		840FD26326B83D3E00409F19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840FD26226B83D3E00409F19 /* SceneDelegate.swift */; };
 		840FD26526B83D3E00409F19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840FD26426B83D3E00409F19 /* ViewController.swift */; };
-		840FD26826B83D3E00409F19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840FD26626B83D3E00409F19 /* Main.storyboard */; };
 		840FD26A26B83D4900409F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840FD26926B83D4900409F19 /* Assets.xcassets */; };
 		840FD26D26B83D4900409F19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840FD26B26B83D4900409F19 /* LaunchScreen.storyboard */; };
 		840FD27826B83D4900409F19 /* customAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840FD27726B83D4900409F19 /* customAlertTests.swift */; };
 		840FD28326B83D4900409F19 /* customAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840FD28226B83D4900409F19 /* customAlertUITests.swift */; };
+		840FD29126B8488200409F19 /* customAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840FD29026B8488200409F19 /* customAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 		840FD26026B83D3E00409F19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		840FD26226B83D3E00409F19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		840FD26426B83D3E00409F19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		840FD26726B83D3E00409F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		840FD26926B83D4900409F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		840FD26C26B83D4900409F19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		840FD26E26B83D4900409F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		840FD27E26B83D4900409F19 /* customAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		840FD28226B83D4900409F19 /* customAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customAlertUITests.swift; sourceTree = "<group>"; };
 		840FD28426B83D4900409F19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840FD29026B8488200409F19 /* customAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 				840FD26026B83D3E00409F19 /* AppDelegate.swift */,
 				840FD26226B83D3E00409F19 /* SceneDelegate.swift */,
 				840FD26426B83D3E00409F19 /* ViewController.swift */,
-				840FD26626B83D3E00409F19 /* Main.storyboard */,
+				840FD29026B8488200409F19 /* customAlert.swift */,
 				840FD26926B83D4900409F19 /* Assets.xcassets */,
 				840FD26B26B83D4900409F19 /* LaunchScreen.storyboard */,
 				840FD26E26B83D4900409F19 /* Info.plist */,
@@ -233,7 +233,6 @@
 			files = (
 				840FD26D26B83D4900409F19 /* LaunchScreen.storyboard in Resources */,
 				840FD26A26B83D4900409F19 /* Assets.xcassets in Resources */,
-				840FD26826B83D3E00409F19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +260,7 @@
 				840FD26526B83D3E00409F19 /* ViewController.swift in Sources */,
 				840FD26126B83D3E00409F19 /* AppDelegate.swift in Sources */,
 				840FD26326B83D3E00409F19 /* SceneDelegate.swift in Sources */,
+				840FD29126B8488200409F19 /* customAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +296,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		840FD26626B83D3E00409F19 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				840FD26726B83D3E00409F19 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		840FD26B26B83D4900409F19 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
